@@ -4,6 +4,9 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+###########
+## Eclipse
+###########
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -21,6 +24,7 @@ $RECYCLE.BIN/
 # OSX
 # =========================
 
+<<<<<<< HEAD
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -41,3 +45,25 @@ Icon
 bin/
 eclipse/
 
+=======
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+eclipse/
+bin/
+.settings/
+.git/
+.project
+.gradle
+>>>>>>> origin/master
