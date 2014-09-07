@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="FlameCore"/>
+	<classpathentry kind="src" path="FlameCoreResources"/>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
@@ -211,7 +213,6 @@
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/Justin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/43ffe692648166363bceadc63ac76c7d19b4ebd7/commons-lang3-3.3.2-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="F:/ModDev/Mod Development/GitHub/FlameCore/build/libs/FlameCore-0.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/Justin/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/start"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.fire.flamecore.utils.LogHelper"/>
+<fullyQualifiedTypeName name="com.fire.flamecore.blocks.BaseBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.fire.flamecore.items.BaseItem"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.creativetab.CreativeTabGeneral"/>
+<fullyQualifiedTypeName name="com.fire.flamecore.client.gui.GuiFactory"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.ModSettings"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.handler.ConfigHandler"/>
+<fullyQualifiedTypeName name="com.fire.flamecore.client.gui.ConfigGuiConfig"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.utils.Colors"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.utils.WealthLogHelper"/>
+<fullyQualifiedTypeName name="com.fire.flamewealth.items.Items"/>
+</qualifiedTypeNameHistroy>
