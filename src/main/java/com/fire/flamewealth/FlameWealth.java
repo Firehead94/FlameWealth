@@ -1,7 +1,11 @@
 package com.fire.flamewealth;
 
+import net.minecraftforge.common.MinecraftForge;
+
 import com.fire.flamewealth.handler.ConfigHandler;
+import com.fire.flamewealth.handler.EventHandler;
 import com.fire.flamewealth.items.Items;
+import com.fire.flamewealth.network.PacketHandler;
 import com.fire.flamewealth.utils.WealthLogHelper;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -23,9 +27,16 @@ public class FlameWealth
 	public void preInit(FMLPreInitializationEvent e) 
 	{ //NetworkHandlers, Configs, Items, Blocks
 		WealthLogHelper.debug("start preInit");
+		
+		PacketHandler.init();
+		
 		Items.init();
+		
 		ConfigHandler.init(e.getSuggestedConfigurationFile());
+		
 		FMLCommonHandler.instance().bus().register(new ConfigHandler());
+		MinecraftForge.EVENT_BUS.register(new EventHandler());
+		
 		WealthLogHelper.info("preInit Complete");
 
 	}
